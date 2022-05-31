@@ -520,6 +520,312 @@ text-align: center;
     justify-content: space-between;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    background-color: rgb(211, 216, 216);
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px;
+
+
+}
+ .logo{
+     position: relative;
+ color: rgb(40, 40, 192);
+ text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 1.8em;
+   right:190px;
+   
+ }
+ .up a{ 
+    position: relative;
+     color: rgb(40, 40, 192);
+  text-decoration:none;
+     font-size: 1em;
+     font-weight: 500;
+     padding-left:10px ;
+     left: 100px; 
+  
+   
+     
+ }
+ .up a:hover{
+     color: rgb(49, 67, 82); 
+   
+   
+    
+ }
+ 
+ section{
+     padding: 100px 200px;
+ }
+
+
+ .main{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     background-position: center;
+     background-attachment: fixed;
+    }
+    .main h2{
+        position: relative;
+        color: rgb(14, 1, 1);
+        font-size: 1.8em;
+        font-weight: 600;
+        transition: 0.4s;
+        bottom: 20px;
+        right: 190px;
+       
+    }
+.main h2 span{
+    position: relative;
+    display: inline-block;
+    
+    color:rgb(40, 40, 192) ;
+font-size: 2em;
+font-weight: 600;
+
+}
+
+.main h3{
+    position: relative;
+    color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: 400;
+        padding: 2px 350px;
+        transition: 0.4s;
+        bottom: 20px;
+        right: 190px;
+       
+        
+}
+ 
+.main h3:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    background-color: white;
+    width: 21.25em;
+    box-shadow:0 5px 25px  rgba(1 1 1 / 55%) ;
+border-radius: 80px 20px 20px 20px ;
+padding: 25px;
+margin: 15px;
+transition: 0.5s;
+left: 80px;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color:rgb(40, 40, 192)  ;
+    font-size:  6em;
+text-align: center;
+}
+
+
+
+
+ .info a{
+     text-decoration: none;
+     font-size: 1.5em;
+     font-weight: 500;
+     color:rgb(40, 40, 192) ;
+    
+ }
+  .info a:hover{
+    color : rgb(106, 72, 230);
+  }
+  .page3{
+    text-align: center;
+    background-color: rgb(211, 216, 216);
+}
+.page3 h1{
+    color:rgb(40, 40, 192) ;
+    width: 800;
+    font-size: 1.8em;
+}
+.page3 h2{ 
+    position: relative;
+    left: 100px;
+    bottom: 12px;
+    color:rgb(40, 40, 192)  ;
+    width: 700;
+    font-size: 1.1em;
+
+   
+
+}
+.page3 h4{  
+    position: relative;
+    right: 120px;
+    bottom: 2px;
+    color:rgb(40, 40, 192)  ;
+    width: 700;
+    font-size: 1.1em;
+
+}
+.page3 h4 span{
+    position: absolute;
+    right:150px;
+    color:rgb(40, 40, 192)  ;
+    width: 700;
+    font-size:1em;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.car{background-color: rgb(211, 216, 216);
+    width: 23em;
+    box-shadow:0 5px 25px  rgba(1 1 1 / 55%) ;
+border-radius: 15px;
+padding: 20px 3px 80px 3px;
+margin: 50px;
+
+
+}
+.de{
+    text-decoration: none;
+     font-size: 0.8em;
+     font-weight: 450;
+     color:rgb(40, 40, 192) ;
+     
+}
+
+.de h3{
+    font-size: 1.2em;
+    text-align:left;
+  padding: 10px;
+}
+
+.de a{
+    font-size: 1em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+transition: 0.4s ;
+}
+
+.de a:hover{
+transform: scale(1.1);
+color: rgb(106, 72, 230);
+}
+ .de h5{
+     font-size: 1em;
+     transition: 0.5s;
+     width: 200;
+     padding: 6px 15px 4px 15px;
+text-align: left;
+ }
+ .de h5:hover{
+     transform: scale(1.1);
+ }
+ .icons{
+    color:rgb(40, 40, 192)  ;
+    font-size:  3em;
+text-align: center;
+ }
+
+
+
+ .num{
+    text-align: center;
+    background-color: rgb(211, 216, 216);
+}
+.num h2{
+    color:rgb(40, 40, 192) ;
+    width: 800;
+    font-size: 1.8em;
+}
+
+.sec1{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.car1{background-color: rgb(211, 216, 216);
+    width: 23em;
+    box-shadow:0 5px 25px  rgba(1 1 1 / 55%) ;
+border-radius: 15px;
+padding: 20px 3px 40px 3px;
+margin: 50px;
+
+
+}
+.icon1{
+    
+    color:rgb(40, 40, 192)  ;
+    font-size:  3em;
+text-align: center;
+}
+
+
+ .de1 {
+        text-decoration: none;
+         font-size: 0.8em;
+         font-weight: 450;
+         color:rgb(40, 40, 192) ;
+         
+    }
+ 
+    .de1 h2{
+        font-size: 1.2em;
+        text-align:left;
+      padding: 10px;
+      
+    }
+.de1 h5{
+    color: black;
+    text-decoration: none;
+    width: 200;
+    font-size: 1em;
+    text-align: left;
+    padding: 6px 15px 4px 15px;
+
+}
+ 
+.footer{
+    background-color:rgb(40, 40, 192)  ;
+    color: aliceblue;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 </body>
 </html>
